@@ -7,6 +7,7 @@ import path from 'path'
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
+  base: '/mbx_react_todo/',
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "./src"),
